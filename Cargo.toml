@@ -1,0 +1,12 @@
+[package]
+name = "mnemonic-gen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bip39 = { version = "2.1.0", features = ["rand"] }
+fuels = "0.66.9"
+tokio = { version = "1.40.0", features = ["full"] }
+hex = "0.4" 
+
+
